@@ -1,0 +1,42 @@
+{
+ "code": 0,
+ "message": "",
+ "data": {
+  "model_type": "nlp",
+  "model_version": 1710935777376079872,
+  "model_download_url": "https://algscab.tslsmart.com:7001/ai/storage/algorithm-upload/1710935777376079872.zip",
+  "task_list": [
+   {
+    "task_id": 109,
+    "video_url": "rtsp://admin:CSPSServer810@192.168.1.101/Streaming/Channels/1",
+    "algo_json_config": "{\"algoType\":11,\"regions\":[{\"regionType\":4,\"vertexList\":[{\"x\":200,\"y\":100},{\"x\":1700,\"y\":100},{\"x\":1700,\"y\":950},{\"x\":200,\"y\":950}]}],\"parList\":[{\"parType\":102,\"value\":10.0},{\"parType\":103,\"value\":2000.0},{\"parType\":302,\"value\":1.0}],\"model_name\":\"nlp\",\"model_version\":1710935777376079872}",
+    "usr_data": "",
+    "offline": 1
+   },
+   {
+    "task_id": 110,
+    "video_url": "rtsp://admin:CSPSServer810@192.168.1.102/Streaming/Channels/1",
+    "algo_json_config": "{\"algoType\":11,\"regions\":[{\"regionType\":4,\"vertexList\":[{\"x\":200,\"y\":100},{\"x\":1700,\"y\":100},{\"x\":1700,\"y\":950},{\"x\":200,\"y\":950}]}],\"parList\":[{\"parType\":102,\"value\":10.0},{\"parType\":103,\"value\":2000.0},{\"parType\":302,\"value\":1.0}],\"model_name\":\"nlp\",\"model_version\":1710935777376079872}",
+    "usr_data": "",
+    "offline": 1
+   },
+   {
+    "task_id": 111,
+    "video_url": "rtsp://admin:CSPSServer810@192.168.1.101/Streaming/Channels/1",
+    "algo_json_config": "{\"algoType\":21,\"regions\":[{\"regionType\":8,\"vertexList\":[{\"x\":0,\"y\":0},{\"x\":352,\"y\":0},{\"x\":352,\"y\":288},{\"x\":0,\"y\":288}]}],\"parList\":[{\"parType\":115,\"value\":5.0},{\"parType\":108,\"value\":3.0},{\"parType\":200,\"value\":0.5},{\"parType\":302,\"value\":3.0}],\"model_name\":\"nlp\",\"model_version\":1710935777376079872}",
+    "usr_data": "",
+    "offline": 1
+   },
+   {
+    "task_id": 112,
+    "video_url": "rtsp://admin:CSPSServer810@192.168.1.102/Streaming/Channels/1",
+    "algo_json_config": "{\"algoType\":21,\"regions\":[{\"regionType\":8,\"vertexList\":[{\"x\":0,\"y\":0},{\"x\":352,\"y\":0},{\"x\":352,\"y\":288},{\"x\":0,\"y\":288}]}],\"parList\":[{\"parType\":115,\"value\":5.0},{\"parType\":108,\"value\":3.0},{\"parType\":200,\"value\":0.5},{\"parType\":302,\"value\":3.0}],\"model_name\":\"nlp\",\"model_version\":1710935777376079872}",
+    "usr_data": "",
+    "offline": 1
+   }
+  ]
+ },
+ "ts": 0,
+ "trace": ""
+}
+

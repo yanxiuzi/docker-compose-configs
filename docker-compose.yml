@@ -1,0 +1,56 @@
+version: '3'
+services:
+  nginx-static-contents:
+    image: nginx:alpine
+    restart: always
+    volumes:
+      - ./pub:/usr/share/nginx/html
+      - ./nginx.conf:/etc/nginx/conf.d
+    ports:
+      - 80:80
+    environment:
+      - VIRTUAL_HOST=spatial-dim-6.org
+        #network_mode: "host"
+    networks:
+      - proxy
+
+  # nginx-proxy:
+  #   restart: always
+  #   image: jwilder/nginx-proxy:alpine
+  #   ports:
+  #     - "80:80"
+  #     - "443:443"
+  #   volumes:
+  #     - /var/run/docker.sock:/tmp/docker.sock:ro
+  #     - ./nginx-proxy.conf/certs:/etc/nginx/certs:ro
+  #     - ./nginx-proxy.conf/limits.conf:/etc/nginx/conf.d/limits.conf
+  #     - ./nginx-proxy.conf/vhost.d:/etc/nginx/vhost.d
+  #   networks:
+  #     - proxy
+
+  # frps:
+  #   image: snowdreamtech/frps
+  #   restart: always
+  #   volumes:
+  #     - ./frp.conf/frps.ini:/etc/frp/frps.ini
+  #   ports:
+  #     - 8080:8080
+  #   environment:
+  #   - VIRTUAL_PORT=8080
+  #   - VIRTUAL_HOST=*.ai-team.dev
+  #   networks:
+  #     - proxy
+
+  # frpc:
+  #   image: snowdreamtech/frpc
+  #   restart: always
+  #   volumes:
+  #     - ./frp.conf/frpc.ini:/etc/frp/frpc.ini
+  #   networks:
+  #     - proxy
+  #   depends_on:
+  #     - frps
+
+networks:
+  proxy:
+   external: true

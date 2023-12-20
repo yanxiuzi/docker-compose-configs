@@ -1,0 +1,35 @@
+{
+ "code": 0,
+ "message": "",
+ "data": {
+  "model_type": "nlp",
+  "model_version": 1730161138492116992,
+  "model_download_url": "https://algscab.tslsmart.com:7001/ai/storage/algorithm-upload/1730161138492116992.zip",
+  "task_list": [
+   {
+    "task_id": 106,
+    "video_url": "rtsp://admin:CSPSServer810@192.168.1.101/Streaming/Channels/1",
+    "algo_json_config": "{\"algoType\":21,\"regions\":[{\"regionType\":8,\"vertexList\":[{\"x\":0,\"y\":0},{\"x\":352,\"y\":0},{\"x\":352,\"y\":288},{\"x\":0,\"y\":288}]}],\"parList\":[{\"parType\":115,\"value\":5.0},{\"parType\":108,\"value\":3.0},{\"parType\":200,\"value\":0.5},{\"parType\":302,\"value\":3.0}],\"model_name\":\"nlp\",\"model_version\":1730161138492116992}",
+    "usr_data": "",
+    "offline": 1
+   },
+   {
+    "task_id": 107,
+    "video_url": "rtsp://admin:CSPSServer810@192.168.1.102/Streaming/Channels/1",
+    "algo_json_config": "{\"algoType\":21,\"regions\":[{\"regionType\":8,\"vertexList\":[{\"x\":0,\"y\":0},{\"x\":352,\"y\":0},{\"x\":352,\"y\":288},{\"x\":0,\"y\":288}]}],\"parList\":[{\"parType\":115,\"value\":5.0},{\"parType\":108,\"value\":3.0},{\"parType\":200,\"value\":0.5},{\"parType\":302,\"value\":3.0}],\"model_name\":\"nlp\",\"model_version\":1730161138492116992}",
+    "usr_data": "",
+    "offline": 1
+   },
+   {
+    "task_id": 108,
+    "video_url": "rtsp://admin:CSPSServer810@192.168.1.103/Streaming/Channels/1",
+    "algo_json_config": "{\"algoType\":21,\"regions\":[{\"regionType\":8,\"vertexList\":[{\"x\":0,\"y\":0},{\"x\":352,\"y\":0},{\"x\":352,\"y\":288},{\"x\":0,\"y\":288}]}],\"parList\":[{\"parType\":115,\"value\":5.0},{\"parType\":108,\"value\":3.0},{\"parType\":200,\"value\":0.5},{\"parType\":302,\"value\":3.0}],\"model_name\":\"nlp\",\"model_version\":1730161138492116992}",
+    "usr_data": "",
+    "offline": 1
+   }
+  ]
+ },
+ "ts": 0,
+ "trace": ""
+}
+
